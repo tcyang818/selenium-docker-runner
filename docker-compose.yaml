@@ -1,0 +1,9 @@
+version: '3'
+services:
+  squares:
+    image: tcyang818/squares
+    container_name: test_container
+    ports:
+      - "3000:8050"
+    environment:
+      - NUMBER=5
